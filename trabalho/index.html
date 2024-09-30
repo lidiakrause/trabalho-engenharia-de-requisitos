@@ -1,0 +1,344 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodologias Ágeis - Grupo 19</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Metodologias Ágeis</h1>
+    </header>
+    <section class="metodologia-card">
+        <h2>XP (eXtreme Programming)</h2>
+        <div class="subsection">
+            <h3>Componentes Humanos Envolvidos</h3>
+            <ul>
+                <li><b>Programadores:</b> Responsáveis por escrever o código de acordo com as práticas ágeis.</li>
+                <li><b>Clientes:</b> Envolvidos continuamente para fornecer feedback constante e priorizar funcionalidades.</li>
+                <li><b>Testadores:</b> Garantem que as funcionalidades estejam funcionando conforme esperado, realizando testes automatizados e manuais.</li>
+                <li><b>Coach:</b> Ajuda a equipe a seguir as práticas ágeis corretamente e facilita a comunicação.</li>
+            </ul>
+        </div>
+
+        <div class="subsection">
+            <h3>Fases do Processo</h3>
+            <ol>
+                <li><b>Planejamento:</b> O cliente define as funcionalidades desejadas, e a equipe planeja as entregas em pequenas iterações.</li>
+                <li><b>Design Simples:</b> Foco em designs simples e diretos, evitando complexidades desnecessárias.</li>
+                <li><b>Codificação em Par:</b> Dois programadores trabalham juntos no mesmo código, revisando e escrevendo código simultaneamente.</li>
+                <li><b>Testes:</b> Testes automatizados são escritos antes da codificação para garantir que o código atenda aos requisitos.</li>
+                <li><b>Refatoração:</b> Melhorias contínuas no código para torná-lo mais eficiente e fácil de manter.</li>
+                <li><b>Integração Contínua:</b> O código é integrado ao sistema central frequentemente, minimizando conflitos.</li>
+                <li><b>Feedback Contínuo:</b> O cliente revisa cada entrega, fornecendo feedback imediato para ajustes.</li>
+            </ol>
+        </div>
+        
+        <div class="subsection"></div>
+            <h3>Contextualização Geral</h3>
+            <ul>
+                <li>O XP surgiu nos anos 90, idealizado por Kent Beck, como uma forma de melhorar a produtividade e a qualidade no desenvolvimento de software. 
+                <br> Ele integra práticas ágeis, como entregas frequentes, feedback constante, testes automatizados e a programação em par. </li>
+            </ul>
+        </div>
+
+        <div class="subsection">
+            <h3>Vantagens e Desvantagens</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Vantagens</th>
+                        <th>Desvantagens</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alta qualidade de código devido ao feedback contínuo e testes constantes.</td>
+                        <td>Requer alta colaboração, o que pode ser desafiador para algumas equipes.</td>
+                    </tr>
+                    <tr>
+                        <td>Entregas rápidas e frequentes, permitindo flexibilidade nas mudanças.</td>
+                        <td>Necessita de um alto nível de disciplina para manter práticas como a codificação em par e refatoração.</td>
+                    </tr>
+                    <tr>
+                        <td>Facilita a adaptação a mudanças frequentes no projeto.</td>
+                        <td>Pode ser inadequado para equipes com pouca experiência em práticas ágeis.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <section class="metodologia-card">
+        <h2>FDD (Feature Driven Development)</h2>
+        <div class="subsection">
+            <h3>Componentes Humanos Envolvidos</h3>
+            <ul>
+                <li><b>Gerente de Projeto:</b> Supervisiona o progresso geral do projeto e garante a entrega dentro dos prazos.</li>
+                <li><b>Arquiteto Chefe:</b> Define a arquitetura do sistema e supervisiona seu desenvolvimento.</li>
+                <li><b>Desenvolvedores Seniores:</b> Trabalham no design detalhado das funcionalidades e lideram pequenas equipes de desenvolvimento.</li>
+                <li><b>Programadores:</b> Implementam as funcionalidades conforme o design estabelecido.</li>
+                <li><b>Cliente:</b> Define as funcionalidades que devem ser implementadas e revisa o software.</li>
+            </ul>
+        </div>
+
+        <div class="subsection">
+            <h3>Fases do Processo</h3>
+            <ol>
+                <li><b>Desenvolvimento de um Modelo Global:</b> Criação de uma visão geral do sistema, identificando classes e interações principais.</li>
+                <li><b>Construção de uma Lista de Funcionalidades:</b> Divisão do sistema em pequenas funcionalidades acionáveis.</li>
+                <li><b>Planejamento por Funcionalidade:</b> Organização das funcionalidades de acordo com sua prioridade e dependências.</li>
+                <li><b>Design por Funcionalidade:</b> Detalhamento do design para cada funcionalidade antes de sua implementação.</li>
+                <li><b>Construção por Funcionalidade:</b> Codificação e teste de cada funcionalidade individualmente.</li>
+            </ol>
+        </div>
+
+        <div class="subsection"></div>
+            <h3>Contextualização Geral</h3>
+            <ul>
+                <li>O FDD foi desenvolvido por Jeff De Luca em 1997 para atender às necessidades de projetos de software complexos, especialmente aqueles com equipes grandes. 
+                    Ele combina práticas ágeis com um foco mais estruturado no design técnico e na documentação. A ideia central é que o desenvolvimento seja guiado por 
+                    funcionalidades pequenas e bem definidas, que possam ser entregues de forma incremental e rápida. 
+                    <br> A metodologia FDD busca equilibrar o controle de projetos tradicionais com a flexibilidade das abordagens ágeis, promovendo uma entrega contínua de valor ao cliente.</li>
+            </ul>
+        </div>
+
+        <div class="subsection">
+            <h3>Vantagens e Desvantagens</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Vantagens</th>
+                        <th>Desvantagens</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Foco em funcionalidades específicas, permitindo entregas contínuas e incrementais.</td>
+                        <td>Pode ser difícil lidar com grandes mudanças de requisitos durante o desenvolvimento.</td>
+                    </tr>
+                    <tr>
+                        <td>Facilita a gestão de projetos complexos, com funcionalidades bem definidas.</td>
+                        <td>Requer uma equipe altamente experiente para garantir a qualidade do design inicial.</td>
+                    </tr>
+                    <tr>
+                        <td>Promove um bom controle de qualidade, já que cada funcionalidade é testada individualmente.</td>
+                        <td>Pode ser mais demorado devido ao foco detalhado em cada funcionalidade.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+
+    <section class="metodologia-card">
+        <h2>Kanban</h2>
+        <div class="subsection">
+            <h3>Componentes Humanos Envolvidos</h3>
+            <ul>
+                O Kanban não tem papéis rigidamente definidos como outras metodologias ágeis (por exemplo, Scrum), mas envolve as seguintes funções e responsabilidades:<br><br>
+                <li><b>Membros da equipe (Team Members):</b> São responsáveis por executar as tarefas no quadro Kanban. Cada membro retira novas tarefas à medida que termina o trabalho anterior.</li>
+                <li><b>Gerentes de fluxo/gestores (Flow Managers):</b>Algumas equipes têm um facilitador que monitora o quadro e ajuda a identificar problemas, gargalos ou bloqueios no fluxo de trabalho.</li>
+                <li><b>Stakeholders:</b>Incluem clientes ou partes interessadas que recebem os resultados do trabalho. Podem fornecer feedback contínuo à equipe.</li>
+                <li><b>Líderes de time ou de produto (Team Leads/Product Owners)</b>Embora não seja um papel formal no Kanban, líderes ou responsáveis pelo produto podem priorizar tarefas com base nas necessidades do cliente ou do mercado.</li>
+            </ul>
+        </div>
+
+        <div class="subsection"></div>
+            <h3>Fases do Processo</h3>
+            <ol>
+                <li><b>To Do (A Fazer):</b>Onde as tarefas são listadas e aguardam para ser iniciadas. Esta fase contém todas as demandas que precisam ser realizadas.</li>
+                <li><b>In Progress (Em Progresso):</b>Tarefas que estão sendo trabalhadas atualmente. Limites de WIP (Work in Progress) são frequentemente aplicados para evitar sobrecarga e garantir que a equipe se concentre em finalizar o trabalho.</li>
+                <li><b>Done (Concluído):</b>Tarefas que foram finalizadas. Nesta fase, o trabalho é considerado completo e pronto para ser entregue ou revisado.</li>
+            </ol>
+            <ul><li>Essas fases podem ser adaptadas conforme a necessidade da equipe, criando fases intermediárias como "Em Revisão", "Testes", entre outras.</li></ul>
+
+            <div class="subsection"></div>
+            <h3>Contextualização Geral</h3>
+            <ul>
+                <li>O Kanban foi criado pela Toyota nos anos 1940 como uma técnica para melhorar a produção de automóveis, alinhando a produção à demanda do mercado. No contexto moderno, ele é aplicado em diversos setores para gerenciar o 
+                    fluxo de trabalho de maneira visual, identificando gargalos e promovendo melhorias contínuas no processo.</li>
+                <li>No Kanban, as tarefas são representadas por cartões em um quadro visual, onde o fluxo do trabalho pode ser monitorado e ajustado conforme necessário. O foco está em limitar o trabalho em andamento (Work in Progress - WIP) para evitar sobrecarga, promov.</li>
+            </ul>
+        </div>
+
+        <div class="subsection">
+            <h3>Vantagens e Desvantagens</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Vantagens</th>
+                        <th>Desvantagens</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Visibilidade do Fluxo de Trabalho - O quadro Kanban permite uma visão clara do que está sendo feito, o que está em espera e o que está concluído. Isso facilita o monitoramento de progresso.</td>
+                        <td>Falta de Estrutura Definida - Algumas equipes podem achar difícil trabalhar sem ciclos ou sprints definidos, o que pode resultar em uma falta de clareza sobre prazos e prioridades.</td>
+                    </tr>
+                    <tr>
+                        <td>Flexibilidade - Não há necessidade de ciclos fixos ou sprints. Novas tarefas podem ser adicionadas conforme surgem, proporcionando maior adaptabilidade às mudanças.</td>
+                        <td>Risco de Sobrecarga - Se os limites de WIP não forem adequadamente monitorados, a equipe pode acabar acumulando muitas tarefas em progresso, levando à redução da eficiência.</td>
+                    </tr>
+                    <tr>
+                        <td>Limitação do WIP - Ao limitar a quantidade de trabalho em andamento, o Kanban evita que a equipe se sobrecarregue, o que resulta em mais foco e eficiência na conclusão de tarefas.</td>
+                        <td>Pouca Priorização - O Kanban, por si só, não define uma maneira clara de priorizar as tarefas, o que pode resultar em confusão sobre o que deve ser feito primeiro, principalmente em ambientes de alta demanda.</td>
+                    </tr>
+                    <tr>
+                        <td>Melhoria Contínua - O Kanban incentiva ajustes constantes para otimizar o fluxo de trabalho. Com o tempo, a equipe pode identificar gargalos e melhorar o processo.
+                        </td>
+                        <td>Dependência de Autogerenciamento - Requer uma equipe disciplinada e autogerenciável, capaz de monitorar seu próprio progresso e identificar problemas de forma proativa.</td>
+                    </tr>
+                    <tr></tr>
+                        <td>Entregas Contínuas - O Kanban promove a entrega contínua de valor, já que as tarefas são finalizadas uma a uma, sem esperar por sprints fechados ou ciclos longos de trabalho.</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <section class="metodologia-card">
+        <h2>Crystal</h2>
+        <div class="subsection">
+            <h3>Componentes Humanos Envolvidos</h3>
+            <ul>
+                <li><b>Equipe de Desenvolvimento:</b> Programadores, testadores, designers e profissionais técnicos.</li>
+                <li><b>Usuários ou Stakeholders:</b> Representantes do cliente ou usuários finais.</li>
+                <li><b>Facilitadores e Gestores:</b> Líderes do projeto ou facilitadores.</li>
+                <li><b>Cliente ou Patrocinador:</b> Envolvido para garantir a direção correta do projeto.</li>
+            </ul>
+        </div>
+
+        <div class="subsection">
+            <h3>Fases do Processo</h3>
+            <ol>
+                <li><b>Visão Inicial e Planejamento:</b> Definição de objetivos e identificação de riscos.</li>
+                <li><b>Iterações Curtas e Entregas Frequentes:</b> Desenvolvimento em ciclos curtos com feedback constante.</li>
+                <li><b>Comunicação e Colaboração Contínua:</b> Reuniões curtas e regulares para alinhamento da equipe.</li>
+                <li><b>Entregas e Revisão de Iterações:</b> Entrega ao final de cada ciclo.</li>
+                <li><b>Aprimoramento Contínuo:</b> Retrospectivas para melhorias.</li>
+                <li><b>Entrega Final:</b> Produto final entregue ao cliente.</li>
+            </ol>
+        </div>
+
+        <div class="subsection"></div>
+            <h3>Contextualização Geral</h3>
+            <ul>
+                <li> A Crystal faz parte do grupo de metodologias ágeis, mas sua principal diferença é o foco nas pessoas e na comunicação, ao 
+                    invés de processos rígidos. Ela é ajustada conforme o tamanho da equipe e a criticidade do projeto. Por exemplo:
+                    <ul>
+                    <li>
+                            Para times pequenos (até 6 pessoas), pode ser usada a Crystal Clear.
+                    </li>
+                    <li>
+                        Para times maiores ou projetos mais críticos, variantes como Crystal Orange ou Red podem ser aplicadas.
+                    </li>
+                    </ul></li>
+            </ul>
+        </div>
+
+        <div class="subsection">
+            <h3>Vantagens e Desvantagens</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Vantagens</th>
+                        <th>Desvantagens</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Flexibilidade e foco nas pessoas.</td>
+                        <td>Menos padronização, dificuldade em equipes grandes.</td>
+                    </tr>
+                    <tr>
+                        <td>Baixa burocracia.</td>
+                        <td>Dependência da comunicação intensa.</td>
+                    </tr>
+                    <tr>
+                        <td>Adaptação ao tamanho da equipe.</td>
+                        <td>Pouco conhecida em algumas empresas.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <section class="metodologia-card">
+        <h2>O Microsoft Solutions Framework (MSF)</h2>
+        <div class="subsection">
+            <h3>Componentes Humanos Envolvidos</h3>
+            <div>
+                <ul>
+                    No MSF, o sucesso de um projeto depende das contribuições de diferentes papéis e responsabilidades. Os principais componentes humanos incluem:<br><br>
+                    <li><b>Gerente de Projeto:</b>Responsável pelo planejamento, acompanhamento e entrega do projeto.</li>
+                    <li><b>Arquiteto de Soluções:</b>Desenha a arquitetura geral do sistema, garantindo que a solução seja escalável e alinhada aos requisitos.</li>
+                    <li><b>Desenvolvedores:</b>onstrutores da solução, responsáveis pelo código e implementação.</li>
+                    <li><b>Engenheiros de Teste/QA (Quality Assurance):</b>Garantem que a solução atenda aos critérios de qualidade e esteja livre de defeitos.</li>
+                    <li><b>Engenheiros de Suporte/Infraestrutura:</b>Configuram e mantêm a infraestrutura necessária para o desenvolvimento e implantação.</li>
+                    <li><b>Clientes/Usuários Finais:</b>stão envolvidos durante o ciclo para validar se os requisitos estão sendo atendidos.</li>
+                </ul>
+            </div>
+    
+
+    <div class="subsection">
+        <h3>Fases do Processo</h3>
+        <ol>
+            O MSF segue um ciclo de vida baseado em fases iterativas, facilitando a agilidade e adaptação ao longo do projeto. As principais fases são:<br><br>
+            <li><b>Envisioning (Visualização):</b> A equipe define a visão do projeto, estabelece metas de negócios, requisitos e identifica as partes interessadas.</li>
+            <li><b>Planning (Planejamento):</b> Detalhamento de funcionalidades, cronograma, recursos, orçamento e riscos.</li>
+            <li><b>Developing (Desenvolvimento):</b> Fase onde o desenvolvimento de software propriamente dito ocorre.</li>
+            <li><b>Stabilizing (Estabilização):</b> Testes, correções de defeitos e ajustes finais são feitos para garantir que a solução esteja pronta para a entrega.</li>
+            <li><b>Deploying (Implantação):</b>O sistema é implementado no ambiente de produção e entregue aos usuários finais.</li>
+        </ol>
+    </div>
+
+    <div class="subsection">
+    <h3>Contextualização Geral</h3>
+    <ul>
+        <li> O MSF surgiu como uma resposta às necessidades da Microsoft de criar um modelo de desenvolvimento flexível, com foco na colaboração entre equipes e entrega contínua de valor. 
+    Ele busca um equilíbrio entre controle e flexibilidade, permitindo que as equipes adaptem o processo às suas necessidades específicas, sem ser rigidamente vinculadas a um único framework.</li>
+    </ul>
+    </div>
+
+    <div class="subsection">
+        <h3>Vantagens e Desvantagens</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Vantagens</th>
+                    <th>Desvantagens</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Flexibilidade - O MSF não impõe um conjunto rígido de ferramentas e técnicas, o que permite adaptação a diferentes tipos de projetos.</td>
+                    <td>Flexibilidade excessiva - A ampla possibilidade de personalização pode gerar indecisão ou confusão nas equipes sobre quais práticas seguir.</td>
+                <tr>
+                    <td>Enfoque no Cliente - Envolve o cliente em todas as fases do ciclo de desenvolvimento, garantindo alinhamento com suas expectativas. </td>
+                    <td>Dependência de Documentação - A estrutura pede uma documentação detalhada, o que pode ser um fardo em projetos com prazos curtos.</td>
+                </tr>
+                <tr>
+                    <td>Facilita a Colaboração - A ênfase em papéis bem definidos e interação constante entre as equipes promove uma melhor colaboração.</td>
+                    <td>Requer Treinamento - Para usar o MSF de forma eficaz, os membros da equipe podem precisar de treinamento especializado, o que pode consumir tempo e recursos.</td>
+                </tr>
+                <tr>
+                    <td>Gestão de Riscos - Possui uma abordagem robusta para a identificação e mitigação de riscos ao longo do projeto.</td>
+                    <td>Complexidade Inicial - A configuração do processo pode ser vista como complexa, principalmente para equipes pequenas ou com pouco conhecimento sobre o framework.</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+        <footer>
+        <p>Trabalho realizado pelo Grupo 19</p>
+    </footer>
+</body>
+</html>
